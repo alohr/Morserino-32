@@ -19,9 +19,12 @@ From groups.io thread [Compiling from source](https://morserino.groups.io/g/main
 > The other library you will need for version 5.x is ArduinoJson by
 > B. Blanchon (I am suing V. 6.20.1, but newer versions probably work ok).
 
-## Install Legacy Arduino (1.8.x)
+## Install Arduino IDE
 
-Install the "Legacy Arduino IDE 1.8.19". I have not tried with the current 2.x.x IDE.
+* Legacy Arduino IDE 1.8.19
+* Arduino IDE 2.3.2
+
+Tested both on MacOS.
 
 ## Install Heltec Library
 
@@ -40,9 +43,21 @@ https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/tag/0.0.6
 
 https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md
 
+Arduino 1.8.x:
+
 ```
-mkdir -p ~/Documents/Arduino/hardware
 cd ~/Documents/Arduino/hardware
+```
+
+Arduino 2.x.x:
+
+```
+cd ~/Library/Arduino15/packages
+```
+
+The rest is identical for both IDE versions.
+
+```
 git clone https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series.git --branch 0.0.6
 mv WiFi_Kit_series heltec
 cd heltec
@@ -52,7 +67,7 @@ cd esp32/tools
 python3 get.py
 ```
 
-### Install Libary
+### Install Library
 
 ```
 cd ~/Documents/Arduino/libraries
