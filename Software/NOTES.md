@@ -79,8 +79,10 @@ In gui:
 
 In case you get this error:
 
-> exec: "python": executable file not found in $PATH
-> Error compiling for board WiFi LoRa 32(V2).
+```
+exec: "python": executable file not found in $PATH
+Error compiling for board WiFi LoRa 32(V2).
+```
 
 Fix the path to the python executable:
 
