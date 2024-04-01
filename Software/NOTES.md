@@ -25,14 +25,11 @@ Install the "Legacy Arduino IDE 1.8.19". I have not tried with the current 2.x.x
 
 ## Install Heltec Library
 
-The Heltec EPS32 library https://github.com/HelTecAutomation/Heltec_ESP32 requires the Heltec ESP32
-development framework:
+Two parts:
 
-> This library requires installation of the [Heltec ESP32 development framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)! A detailed document about how to install the Heltec ESP32 development
-> framework and this library available here:
->
-> [Heltec ESP32+LoRa Series Quick Start — esp32 latest documentation](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html)
-
+1. Heltec ESP32 development framework (https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)
+2. Heltec ESP32 library (https://github.com/HelTecAutomation/Heltec_ESP32)
+ 
 ### Install Heltec ESP32 development framework
 
 Install version 0.0.6 of the development framework via **git**.
