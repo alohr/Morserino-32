@@ -74,6 +74,9 @@ cd ~/Documents/Arduino/libraries
 git clone https://github.com/HelTecAutomation/Heltec_ESP32.git --branch 1.0.9
 ```
 
+Attention: the Arduino IDE 2.x.x checks for updates when it starts. Do **not** hit the
+default "INSTALL ALL" button. This would overwrite the Heltec library.
+
 ## Install ArduinoJson
 
 Install ArduinoJson 6.20.1 via Arduino library manager.
