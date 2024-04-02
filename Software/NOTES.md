@@ -22,9 +22,10 @@ From groups.io thread [Compiling from source](https://morserino.groups.io/g/main
 ## Install Arduino IDE
 
 * Legacy Arduino IDE 1.8.19
+  ** tested on MacOS 13.5 (Ventura)
 * Arduino IDE 2.3.2
-
-Tested both on MacOS.
+  ** tested on MacOS 13.5 (Ventura)
+  ** tested on Linux (Fedora 39)
 
 ## Install Heltec Library
 
@@ -52,7 +53,8 @@ cd ~/Documents/Arduino/hardware
 Arduino 2.x.x:
 
 ```
-cd ~/Library/Arduino15/packages
+cd ~/Library/Arduino15/packages  # Mac
+cd ~/.arduino15/packages         # Linux
 ```
 
 The rest is identical for both IDE versions.
@@ -70,12 +72,13 @@ python3 get.py
 ### Install Library
 
 ```
-cd ~/Documents/Arduino/libraries
+cd ~/Documents/Arduino/libraries # Mac
+cd ~/Arduino/libraries           # Linux
 git clone https://github.com/HelTecAutomation/Heltec_ESP32.git --branch 1.0.9
 ```
 
-Attention: the Arduino IDE 2.x.x checks for updates when it starts. Do **not** hit the
-default "INSTALL ALL" button. This would overwrite the Heltec library.
+**NOTICE: the Arduino IDE 2.x.x checks for updates when it starts. Do not hit the
+default "INSTALL ALL" button. This would overwrite the Heltec library.**
 
 ## Install ArduinoJson
 
