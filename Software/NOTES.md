@@ -47,13 +47,13 @@ https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac
 Arduino 1.8.x:
 
 ```
-cd ~/Documents/Arduino/hardware
+cd ~/Documents/Arduino/hardware  # MacOS (have not tried Linux)
 ```
 
 Arduino 2.x.x:
 
 ```
-cd ~/Library/Arduino15/packages  # Mac
+cd ~/Library/Arduino15/packages  # MacOS
 cd ~/.arduino15/packages         # Linux
 ```
 
