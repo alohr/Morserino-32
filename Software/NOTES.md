@@ -22,10 +22,10 @@ From groups.io thread [Compiling from source](https://morserino.groups.io/g/main
 ## Install Arduino IDE
 
 * Legacy Arduino IDE 1.8.19
-  ** tested on MacOS 13.5 (Ventura)
+  * tested on MacOS 13.5 (Ventura)
 * Arduino IDE 2.3.2
-  ** tested on MacOS 13.5 (Ventura)
-  ** tested on Linux (Fedora 39)
+  * tested on MacOS 13.5 (Ventura)
+  * tested on Linux (Fedora 39)
 
 ## Install Heltec Library
 
